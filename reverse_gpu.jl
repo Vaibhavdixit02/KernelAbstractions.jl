@@ -59,6 +59,6 @@ function enzyme_testsuite(backend, ArrayT, supports_reverse=true)
     end
 end
 
-enzyme_testsuite(CPU, Array, true)
+# enzyme_testsuite(CPU, Array, true)
 # enzyme_testsuite(CUDABackend, CuArray, false)
 enzyme_testsuite(CUDABackend, CuArray, true)
